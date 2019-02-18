@@ -18,4 +18,4 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class CadastroSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Cadastro
-        fields = ('id', 'url', 'nome', 'data_nascimento', 'genero')
+        fields = ('id', 'url', 'nome', 'data_nascimento', 'genero', 'escolaridade')
